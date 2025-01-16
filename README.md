@@ -18,7 +18,7 @@
 | 6                    | BETWEEN, IN, LIKE, OR                         |
 | 7                    | = (Assignment)                                |
 
-## Elements of an instruction SELECT
+## Elements of a SELECT instruction
 | **Element**  | **Expression**         | **Role**                              |
 |--------------|------------------------|---------------------------------------|
 | SELECT       | `<select list>`        | Defines which columns to return       |
@@ -27,3 +27,14 @@
 | GROUP BY     | `<group by list>`      | Groups rows into categories           |
 | HAVING       | `<search condition>`   | Filters groups using a condition      |
 | ORDER BY     | `<order by list>`      | Sorts the output                      |
+
+## Processing of logical queries
+| **Step** | **Element**  | **Expression**         |
+|----------|--------------|------------------------|
+| 5        | SELECT       | `<select list>`        |
+| 1        | FROM         | `<table source>`       |
+| 2        | WHERE        | `<search condition>`   |
+| 3        | GROUP BY     | `<group by list>`      |
+| 4        | HAVING       | `<search condition>`   |
+| 6        | ORDER BY     | `<order by list>`      |
+
