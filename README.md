@@ -30,7 +30,7 @@
 
 ## Processing of logical queries
 | **Step** | **Element**  | **Expression**         |
-|----------|--------------|------------------------|
+|:----------:|--------------|------------------------|
 | 5        | SELECT       | `<select list>`        |
 | 1        | FROM         | `<table source>`       |
 | 2        | WHERE        | `<search condition>`   |
