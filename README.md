@@ -38,3 +38,4 @@
 | 4        | HAVING       | `<search condition>`   |
 | 6        | ORDER BY     | `<order by list>`      |
 
+# JavaScript
